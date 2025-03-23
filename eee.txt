@@ -1,0 +1,788 @@
+cat /proc/cpuinfo
+processor       : 0
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 1
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 2
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 3
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 4
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 5
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 6
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+processor       : 7
+BogoMIPS        : 26.00
+Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd03
+CPU revision    : 4
+
+Hardware        : MT6765V/WB
+Hardware        : MT6765V/WB
+a03s:/ # cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+schedutil
+schedutil
+schedutil
+schedutil
+schedutil
+schedutil
+schedutil
+schedutil
+a03s:/ # cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_available_frequencies
+2301000 2215000 2139000 2074000 2009000 1944000 1879000 1814000 1750000 1617000 1484000 1351000 1218000 1085000 979000 900000
+2301000 2215000 2139000 2074000 2009000 1944000 1879000 1814000 1750000 1617000 1484000 1351000 1218000 1085000 979000 900000
+2301000 2215000 2139000 2074000 2009000 1944000 1879000 1814000 1750000 1617000 1484000 1351000 1218000 1085000 979000 900000
+2301000 2215000 2139000 2074000 2009000 1944000 1879000 1814000 1750000 1617000 1484000 1351000 1218000 1085000 979000 900000
+1800000 1682000 1579000 1491000 1402000 1314000 1226000 1138000 1050000 948000 846000 745000 643000 542000 501000 400000
+1800000 1682000 1579000 1491000 1402000 1314000 1226000 1138000 1050000 948000 846000 745000 643000 542000 501000 400000
+1800000 1682000 1579000 1491000 1402000 1314000 1226000 1138000 1050000 948000 846000 745000 643000 542000 501000 400000
+1800000 1682000 1579000 1491000 1402000 1314000 1226000 1138000 1050000 948000 846000 745000 643000 542000 501000 400000
+a03s:/ # ls /sys/devices/virtual/thermal/
+cooling_device0   cooling_device29  cooling_device49  cooling_device69  cooling_device89  thermal_zone18
+cooling_device1   cooling_device3   cooling_device5   cooling_device7   cooling_device9   thermal_zone19
+cooling_device10  cooling_device30  cooling_device50  cooling_device70  cooling_device90  thermal_zone2
+cooling_device11  cooling_device31  cooling_device51  cooling_device71  cooling_device91  thermal_zone20
+cooling_device12  cooling_device32  cooling_device52  cooling_device72  cooling_device92  thermal_zone21
+cooling_device13  cooling_device33  cooling_device53  cooling_device73  cooling_device93  thermal_zone22
+cooling_device14  cooling_device34  cooling_device54  cooling_device74  cooling_device94  thermal_zone23
+cooling_device15  cooling_device35  cooling_device55  cooling_device75  cooling_device95  thermal_zone24
+cooling_device16  cooling_device36  cooling_device56  cooling_device76  cooling_device96  thermal_zone25
+cooling_device17  cooling_device37  cooling_device57  cooling_device77  cooling_device97  thermal_zone26
+cooling_device18  cooling_device38  cooling_device58  cooling_device78  cooling_device98  thermal_zone3
+cooling_device19  cooling_device39  cooling_device59  cooling_device79  cooling_device99  thermal_zone4
+cooling_device2   cooling_device4   cooling_device6   cooling_device8   thermal_zone0     thermal_zone5
+cooling_device20  cooling_device40  cooling_device60  cooling_device80  thermal_zone1     thermal_zone6
+cooling_device21  cooling_device41  cooling_device61  cooling_device81  thermal_zone10    thermal_zone7
+cooling_device22  cooling_device42  cooling_device62  cooling_device82  thermal_zone11    thermal_zone8
+cooling_device23  cooling_device43  cooling_device63  cooling_device83  thermal_zone12    thermal_zone9
+cooling_device24  cooling_device44  cooling_device64  cooling_device84  thermal_zone13
+cooling_device25  cooling_device45  cooling_device65  cooling_device85  thermal_zone14
+cooling_device26  cooling_device46  cooling_device66  cooling_device86  thermal_zone15
+cooling_device27  cooling_device47  cooling_device67  cooling_device87  thermal_zone16
+cooling_device28  cooling_device48  cooling_device68  cooling_device88  thermal_zone17
+a03s:/ # cat /sys/devices/virtual/thermal/thermal_zone*/temp
+36450
+38000
+-127000
+-127000
+-127000
+-127000
+-127000
+-127000
+-127000
+-127000
+-127000
+36492
+39000
+35809
+36882
+36300
+39000
+-127000
+-12700
+0
+41400
+-127000
+34000
+-127000
+-127000
+-127000
+-127000
+a03s:/ # cat /sys/module/msm_thermal/parameters/enabled
+cat: /sys/module/msm_thermal/parameters/enabled: No such file or directory
+1|a03s:/ # ls /proc/gpufreq
+gpufreq_fixed_freq_volt  gpufreq_opp_freq         gpufreq_power_dump     gpufreq_var_dump
+gpufreq_opp_dump         gpufreq_opp_stress_test  gpufreq_power_limited
+a03s:/ # cat /proc/gpufreq/gpufreq_limited_max_freq
+cat: /proc/gpufreq/gpufreq_limited_max_freq: No such file or directory
+1|a03s:/ # cat /proc/gpufreq/gpufreq_limited_max_freq
+cat: /proc/gpufreq/gpufreq_limited_max_freq: No such file or directory
+1|a03s:/ # cat /proc/gpufreq/gpufreq_fixed_freq_volt
+GPU-DVFS fixed freq & volt is disabled
+a03s:/ # cat /proc/gpufreq/gpufreq_fixed_freq_volt
+GPU-DVFS fixed freq & volt is disabled
+a03s:/ # cat /proc/gpufreq/gpufreq_opp_dump
+[0] freq = 680000, volt = 80000, vsram = 87500, gpufreq_power = 760
+[1] freq = 500000, volt = 70000, vsram = 87500, gpufreq_power = 431
+[2] freq = 400000, volt = 65000, vsram = 87500, gpufreq_power = 304
+a03s:/ # cat /proc/gpufreq/
+cat: /proc/gpufreq/: Is a directory
+1|a03s:/ # cat /proc/gpufreq/gpufreq_opp_freq
+Keeping OPP frequency is disabled
+a03s:/ # cat /proc/gpufreq/gpufreq_opp_stress_test
+g_opp_stress_test_state = 0
+a03s:/ # cat /proc/gpufreq/gpufreq_power_dump
+[0] freq = 680000, volt = 80000, power = 760
+[1] freq = 500000, volt = 70000, power = 431
+[2] freq = 400000, volt = 65000, power = 304
+a03s:/ # cat /proc/gpufreq/gpufreq_power_limited
+GPU-DVFS power limited state ....
+g_batt_oc_limited_ignore_state = 0
+g_batt_percent_limited_ignore_state = 0
+g_low_batt_limited_ignore_state = 0
+g_thermal_protect_limited_ignore_state = 0
+g_pbm_limited_ignore_state = 0
+a03s:/ # cat /proc/gpufreq/gpufreq_var_dump
+g_cur_opp_idx = 2, g_cur_opp_cond_idx = 2
+g_cur_opp_freq = 400000, g_cur_opp_volt = 65000, g_cur_opp_vsram_volt = 87500
+real freq = 400000, real volt = 0, real vsram_volt = 87500
+current vcore opp = 3
+clock freq = 0
+g_segment_id = 3
+g_volt_enable_state = 0
+g_opp_stress_test_state = 0
+g_DVFS_off_by_ptpod_idx = 0
+g_max_limited_idx = 0
+g_opp_springboard_idx = 0
+gpu_loading = 0
+g_limited_idx_array[0] = 0
+g_limited_idx_array[1] = 0
+g_limited_idx_array[2] = 0
+g_limited_idx_array[3] = 0
+g_limited_idx_array[4] = 0
+a03s:/ # dumpsys SurfaceFlinger | grep GLES
+GLES: Imagination Technologies, PowerVR Rogue GE8320, OpenGL ES 3.2 build 1.13@5776728
+a03s:/ # getprop ro.config.low_ram
+
+a03s:/ # getprop | grep gpu
+[hdr.gpu_level]: [2]
+[hdr.gpu_method]: [0]
+[init.svc.gpu]: [running]
+[init.svc_debug_pid.gpu]: [1140]
+[ro.boottime.gpu]: [22422063923]
+a03s:/ # cat /sys/module/lowmemorykiller/parameters/minfree
+cat: /sys/module/lowmemorykiller/parameters/minfree: No such file or directory
+1|a03s:/ # cat /sys/module/lowmemorykiller/parameters/adj
+cat: /sys/module/lowmemorykiller/parameters/adj: No such file or directory
+1|a03s:/ # cat /proc/swaps
+Filename                                Type            Size    Used    Priority
+/dev/block/zram0                        partition       3145724 1477536 -2
+a03s:/ # cat /sys/block/zram0/comp_algorithm
+lzo [lz4] zstd
+a03s:/ # cat /sys/block/zram0/disksize
+3221225472
+a03s:/ # cat /proc/sys/kernel/random/entropy_avail
+3483
+a03s:/ # cat /proc/sys/kernel/random/poolsize
+4096
+a03s:/ # dumpsys deviceidle
+  Settings:
+    flex_time_short=+1m0s0ms
+    light_after_inactive_to=+1m0s0ms
+    light_idle_to=+5m0s0ms
+    light_idle_factor=2.0
+    light_max_idle_to=+20m0s0ms
+    light_idle_maintenance_min_budget=+1m0s0ms
+    light_idle_maintenance_max_budget=+3m0s0ms
+    min_light_maintenance_time=+5s0ms
+    min_deep_maintenance_time=+30s0ms
+    inactive_to=+15m0s0ms
+    sensing_to=+2m0s0ms
+    locating_to=+30s0ms
+    location_accuracy=20.0m
+    motion_inactive_to=+7m0s0ms
+    motion_inactive_to_flex=+1m0s0ms
+    idle_after_inactive_to=+20m0s0ms
+    idle_pending_to=+5m0s0ms
+    max_idle_pending_to=+10m0s0ms
+    idle_pending_factor=2.0
+    quick_doze_delay_to=+1m0s0ms
+    idle_to=+1h0m0s0ms
+    max_idle_to=+6h0m0s0ms
+    idle_factor=2.0
+    min_time_to_alarm=+30m0s0ms
+    max_temp_app_allowlist_duration_ms=+5m0s0ms
+    mms_temp_app_allowlist_duration_ms=+1m0s0ms
+    sms_temp_app_allowlist_duration_ms=+20s0ms
+    notification_allowlist_duration_ms=+30s0ms
+    wait_for_unlock=true
+    pre_idle_factor_long=1.67
+    pre_idle_factor_short=0.33
+    use_window_alarms=false
+  Idling history:
+     light-idle: -4h40m41s719ms
+         normal: -4h35m58s538ms (unlocked)
+     light-idle: -4h29m24s964ms
+    light-maint: -4h20m55s624ms
+     light-idle: -4h20m46s136ms
+         normal: -4h8m22s800ms (unlocked)
+     light-idle: -3h42m22s922ms
+    light-maint: -3h26m32s838ms
+         normal: -3h26m27s638ms (unlocked)
+  Whitelist (except idle) system apps:
+    com.sec.vsim.ericssonnsds.webapp
+    com.samsung.android.app.galaxyfinder
+    com.samsung.android.app.cocktailbarservice
+    com.android.providers.calendar
+    com.osp.app.signin
+    com.sec.android.app.safetyassurance
+    com.samsung.android.easysetup
+    com.samsung.android.aware.service
+    com.sec.android.easyonehand
+    com.samsung.android.rubin.app
+    com.android.providers.downloads
+    com.sec.android.app.samsungapps
+    com.sec.android.daemonapp
+    com.android.vending
+    com.samsung.android.privateshare
+    com.samsung.android.sm.devicesecurity
+    com.samsung.android.messaging
+    com.samsung.klmsagent
+    com.sec.imsservice
+    com.facebook.services
+    com.samsung.android.mobileservice
+    com.samsung.android.mdx.kit
+    com.samsung.android.kgclient
+    com.samsung.android.app.contacts
+    com.samsung.android.service.peoplestripe
+    com.samsung.android.app.smartcapture
+    com.sec.android.app.clockpackage
+    com.samsung.android.server.wifi.mobilewips
+    com.google.android.gms
+    com.sec.spp.push
+    com.android.proxyhandler
+    com.samsung.android.allshare.service.fileshare
+    com.android.managedprovisioning
+    com.samsung.android.dialer
+    com.samsung.android.game.gos
+    com.samsung.android.forest
+    com.samsung.android.beaconmanager
+    com.sec.unifiedwfc
+    com.samsung.android.app.updatecenter
+    com.aura.oobe.samsung.gl
+    com.google.android.apps.turbo
+    com.samsung.android.bluelightfilter
+    com.samsung.android.providers.contacts
+    com.android.shell
+    com.sec.enterprise.knox.cloudmdm.smdms
+    com.google.android.apps.carrier.carrierwifi
+    com.samsung.android.app.appsedge
+    com.samsung.android.sdk.handwriting
+    com.facebook.appmanager
+    com.google.android.cellbroadcastreceiver
+    com.samsung.sec.android.application.csc
+    com.samsung.android.sdm.config
+    com.samsung.android.video
+  Whitelist system apps:
+    com.sec.vsim.ericssonnsds.webapp
+    com.samsung.android.app.galaxyfinder
+    com.samsung.android.app.cocktailbarservice
+    com.android.providers.calendar
+    com.osp.app.signin
+    com.sec.android.app.safetyassurance
+    com.samsung.android.easysetup
+    com.samsung.android.aware.service
+    com.sec.android.easyonehand
+    com.samsung.android.rubin.app
+    com.android.providers.downloads
+    com.sec.android.app.samsungapps
+    com.sec.android.daemonapp
+    com.samsung.android.privateshare
+    com.samsung.android.sm.devicesecurity
+    com.samsung.android.messaging
+    com.samsung.klmsagent
+    com.sec.imsservice
+    com.facebook.services
+    com.samsung.android.mobileservice
+    com.samsung.android.mdx.kit
+    com.samsung.android.kgclient
+    com.samsung.android.app.contacts
+    com.samsung.android.service.peoplestripe
+    com.samsung.android.app.smartcapture
+    com.sec.android.app.clockpackage
+    com.samsung.android.server.wifi.mobilewips
+    com.google.android.gms
+    com.sec.spp.push
+    com.samsung.android.allshare.service.fileshare
+    com.android.managedprovisioning
+    com.samsung.android.dialer
+    com.samsung.android.game.gos
+    com.samsung.android.forest
+    com.samsung.android.beaconmanager
+    com.sec.unifiedwfc
+    com.samsung.android.app.updatecenter
+    com.aura.oobe.samsung.gl
+    com.samsung.android.bluelightfilter
+    com.android.shell
+    com.sec.enterprise.knox.cloudmdm.smdms
+    com.samsung.android.app.appsedge
+    com.samsung.android.sdk.handwriting
+    com.google.android.cellbroadcastreceiver
+    com.samsung.sec.android.application.csc
+    com.samsung.android.sdm.config
+    com.samsung.android.video
+  Whitelist user apps:
+    com.sec.android.daemonapp
+    com.paget96.lsandroid
+    com.samsung.android.app.appsedge
+  Whitelist (except idle) all app ids:
+    1000
+    1001
+    2000
+    5003
+    5006
+    5010
+    5012
+    5025
+    10038
+    10039
+    10042
+    10044
+    10046
+    10047
+    10048
+    10050
+    10051
+    10052
+    10053
+    10054
+    10055
+    10057
+    10060
+    10064
+    10065
+    10070
+    10073
+    10078
+    10080
+    10081
+    10082
+    10083
+    10089
+    10092
+    10097
+    10105
+    10106
+    10109
+    10128
+    10131
+    10135
+    10143
+    10145
+    10153
+    10156
+    10157
+    10164
+    10167
+    10170
+    10171
+    10189
+    10209
+    10271
+  Whitelist user app ids:
+    10064
+    10131
+    10271
+  Whitelist all app ids:
+    1000
+    1001
+    2000
+    5003
+    5006
+    5010
+    5012
+    5025
+    10038
+    10039
+    10042
+    10046
+    10047
+    10048
+    10051
+    10052
+    10053
+    10054
+    10055
+    10057
+    10060
+    10064
+    10065
+    10070
+    10073
+    10078
+    10080
+    10081
+    10082
+    10083
+    10089
+    10092
+    10097
+    10105
+    10106
+    10109
+    10128
+    10131
+    10135
+    10143
+    10145
+    10156
+    10157
+    10171
+    10189
+    10209
+    10271
+  mLightEnabled=true  mDeepEnabled=true
+  mForceIdle=false
+  mUseMotionSensor=true mMotionSensor={Sensor name="SIGNIFICANT_MOTION", vendor="MTK", version=1, type=17, maxRange=1.0, resolution=1.0, power=0.001, minDelay=-1}
+  mScreenOn=false
+  mScreenLocked=true
+  mNetworkConnected=true
+  mCharging=true
+  mMotionActive=true
+  mNotMoving=false
+  mMotionListener.activatedTimeElapsed=11810978
+  mLastMotionEventElapsed=11443466
+  3 stationary listeners registered
+  mLocating=false mHasGps=false mHasNetwork=false mLocated=false
+  mState=ACTIVE mLightState=ACTIVE
+  mInactiveTimeout=+15m0s0ms
+  mNextLightIdleDelay=+5m0s0ms
+  mCurLightIdleBudget=+1m0s0ms
+a03s:/ # dumpsys battery
+Current Battery Service state:
+  AC powered: true
+  USB powered: false
+  Wireless powered: false
+  Max charging current: 0
+  Max charging voltage: 0
+  Charge counter: 1826520
+  status: 2
+  health: 2
+  present: true
+  level: 62
+  scale: 100
+  voltage: 4142
+  temperature: 369
+  technology: Li-ion
+  batteryMiscEvent: 0
+  batteryCurrentEvent: 0
+  mSecPlugTypeSummary: 1
+  LED Charging: true
+  LED Low Battery: true
+  current now: 1113600
+  charge counter: 1826520
+  Adaptive Fast Charging Settings: true
+  Super Fast Charging Settings: false
+FEATURE_WIRELESS_FAST_CHARGER_CONTROL: false
+  mWasUsedWirelessFastChargerPreviously: false
+  mWirelessFastChargingSettingsEnable: true
+LLB CAL: 20220823
+LLB MAN:
+LLB CURRENT: YEAR2025M3D23
+LLB DIFF: 134
+  mSavedBatteryBeginningDate: 0
+SEC_FEATURE_BATTERY_FULL_CAPACITY: true
+  mFullCapacityEnable: false
+FEATURE_HICCUP_CONTROL: false
+FEATURE_SUPPORTED_DAILY_BOARD: false
+SEC_FEATURE_BATTERY_LIFE_EXTENDER: false
+SEC_FEATURE_USE_WIRELESS_POWER_SHARING: false
+BatteryInfoBackUp
+  mSavedBatteryAsoc: -1
+  mSavedBatteryMaxTemp: 504
+  mSavedBatteryMaxCurrent: 1557500
+  mSavedBatteryUsage: 97456
+  FEATURE_SAVE_BATTERY_CYCLE: true
+  SEC_FEATURE_PREVENT_SWELLING: false
+a03s:/ # sysctl -a | grep tcp
+sysctl: key 'net.ipv4.route.flush': Permission denied
+net.ipv4.tcp_abort_on_overflow = 0
+net.ipv4.tcp_adv_win_scale = 1
+net.ipv4.tcp_allowed_congestion_control = reno bic
+net.ipv4.tcp_app_win = 31
+net.ipv4.tcp_autocorking = 1
+net.ipv4.tcp_available_congestion_control = reno bic cubic
+net.ipv4.tcp_available_ulp =
+net.ipv4.tcp_base_mss = 1024
+net.ipv4.tcp_challenge_ack_limit = 1000
+net.ipv4.tcp_comp_sack_delay_ns = 1000000
+net.ipv4.tcp_comp_sack_nr = 44
+net.ipv4.tcp_congestion_control = bic
+net.ipv4.tcp_dsack = 1
+net.ipv4.tcp_early_demux = 1
+net.ipv4.tcp_early_retrans = 3
+net.ipv4.tcp_ecn = 2
+net.ipv4.tcp_ecn_fallback = 1
+net.ipv4.tcp_fack = 0
+net.ipv4.tcp_fastopen = 1
+net.ipv4.tcp_fastopen_blackhole_timeout_sec = 3600
+net.ipv4.tcp_fastopen_key = 00000000-00000000-00000000-00000000
+net.ipv4.tcp_fin_timeout = 60
+net.ipv4.tcp_frto = 2
+net.ipv4.tcp_fwmark_accept = 1
+net.ipv4.tcp_invalid_ratelimit = 500
+net.ipv4.tcp_keepalive_intvl = 75
+net.ipv4.tcp_keepalive_probes = 9
+net.ipv4.tcp_keepalive_time = 7200
+net.ipv4.tcp_limit_output_bytes = 1048576
+net.ipv4.tcp_low_latency = 0
+net.ipv4.tcp_max_orphans = 16384
+net.ipv4.tcp_max_reordering = 300
+net.ipv4.tcp_max_syn_backlog = 128
+net.ipv4.tcp_max_tw_buckets = 16384
+net.ipv4.tcp_mem = 33012        44019   66024
+net.ipv4.tcp_min_rtt_wlen = 300
+net.ipv4.tcp_min_snd_mss = 48
+net.ipv4.tcp_min_tso_segs = 2
+net.ipv4.tcp_moderate_rcvbuf = 1
+net.ipv4.tcp_mtu_probing = 1
+net.ipv4.tcp_no_metrics_save = 0
+net.ipv4.tcp_notsent_lowat = 4294967295
+net.ipv4.tcp_orphan_retries = 0
+net.ipv4.tcp_pacing_ca_ratio = 120
+net.ipv4.tcp_pacing_ss_ratio = 200
+net.ipv4.tcp_probe_interval = 600
+net.ipv4.tcp_probe_threshold = 8
+net.ipv4.tcp_recovery = 1
+net.ipv4.tcp_reordering = 3
+net.ipv4.tcp_retrans_collapse = 1
+net.ipv4.tcp_retries1 = 3
+net.ipv4.tcp_retries2 = 15
+net.ipv4.tcp_rfc1337 = 0
+net.ipv4.tcp_rmem = 524288      1048576 4194304
+net.ipv4.tcp_sack = 1
+net.ipv4.tcp_slow_start_after_idle = 1
+net.ipv4.tcp_stdurg = 0
+net.ipv4.tcp_syn_retries = 6
+net.ipv4.tcp_synack_retries = 5
+net.ipv4.tcp_thin_linear_timeouts = 0
+net.ipv4.tcp_timestamps = 1
+net.ipv4.tcp_tso_win_divisor = 3
+net.ipv4.tcp_tw_reuse = 2
+net.ipv4.tcp_window_scaling = 1
+net.ipv4.tcp_wmem = 524288      1048576 4194304
+net.ipv4.tcp_workaround_signed_windows = 0
+sysctl: key 'net.ipv6.conf.all.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.default.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.dummy0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.epdg0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.epdg1.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.epdg2.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.epdg3.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.epdg4.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.epdg5.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.epdg6.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.epdg7.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.ip6_vti0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.ip6tnl0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.ip_vti0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.lo.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.p2p0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet1.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet10.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet11.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet12.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet13.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet14.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet15.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet16.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet17.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet18.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet19.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet2.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet20.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet3.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet4.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet5.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet6.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet7.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet8.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet9.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.sit0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.swlan0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.tunl0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.wlan0.stable_secret': I/O error
+sysctl: key 'net.ipv6.route.flush': Permission denied
+net.netfilter.nf_conntrack_tcp_be_liberal = 0
+net.netfilter.nf_conntrack_tcp_loose = 1
+net.netfilter.nf_conntrack_tcp_max_retrans = 3
+net.netfilter.nf_conntrack_tcp_timeout_close = 10
+net.netfilter.nf_conntrack_tcp_timeout_close_wait = 60
+net.netfilter.nf_conntrack_tcp_timeout_established = 432000
+net.netfilter.nf_conntrack_tcp_timeout_fin_wait = 120
+net.netfilter.nf_conntrack_tcp_timeout_last_ack = 30
+net.netfilter.nf_conntrack_tcp_timeout_max_retrans = 300
+net.netfilter.nf_conntrack_tcp_timeout_syn_recv = 60
+net.netfilter.nf_conntrack_tcp_timeout_syn_sent = 120
+net.netfilter.nf_conntrack_tcp_timeout_time_wait = 120
+net.netfilter.nf_conntrack_tcp_timeout_unacknowledged = 300
+sysctl: key 'vm.compact_memory': Permission denied
+sysctl: key 'vm.drop_caches': Permission denied
+a03s:/ # cat /proc/sys/net/core/rmem_max
+33554432
+a03s:/ # cat /proc/sys/net/core/wmem_max
+16777216
+a03s:/ # cat /sys/block/mmcblk0/queue/scheduler
+[mq-deadline] kyber none
+a03s:/ # cat /sys/block/mmcblk0/queue/nr_requests
+128
+a03s:/ # getprop | grep dalvik.vm
+[dalvik.vm.appimageformat]: [lz4]
+[dalvik.vm.dex2oat-Xms]: [64m]
+[dalvik.vm.dex2oat-Xmx]: [512m]
+[dalvik.vm.dex2oat-max-image-block-size]: [524288]
+[dalvik.vm.dex2oat-minidebuginfo]: [true]
+[dalvik.vm.dex2oat-resolve-startup-strings]: [true]
+[dalvik.vm.dexopt.secondary]: [true]
+[dalvik.vm.dexopt.thermal-cutoff]: [2]
+[dalvik.vm.finalizer-timeout-ms]: [60000]
+[dalvik.vm.heapgrowthlimit]: [192m]
+[dalvik.vm.heapmaxfree]: [4m]
+[dalvik.vm.heapminfree]: [512k]
+[dalvik.vm.heapsize]: [512m]
+[dalvik.vm.heapstartsize]: [4m]
+[dalvik.vm.heaptargetutilization]: [0.75]
+[dalvik.vm.image-dex2oat-Xms]: [64m]
+[dalvik.vm.image-dex2oat-Xmx]: [64m]
+[dalvik.vm.isa.arm.features]: [default]
+[dalvik.vm.isa.arm.variant]: [cortex-a53]
+[dalvik.vm.isa.arm64.features]: [default]
+[dalvik.vm.isa.arm64.variant]: [cortex-a53]
+[dalvik.vm.lockprof.threshold]: [500]
+[dalvik.vm.madvise.artfile.size]: [4294967295]
+[dalvik.vm.madvise.odexfile.size]: [104857600]
+[dalvik.vm.madvise.vdexfile.size]: [104857600]
+[dalvik.vm.minidebuginfo]: [true]
+[dalvik.vm.mtk-stack-trace-file]: [/data/anr/mtk_traces.txt]
+[dalvik.vm.usejit]: [true]
+[dalvik.vm.usejitprofiles]: [true]
+[persist.sys.dalvik.vm.lib.2]: [libart.so]
+[ro.dalvik.vm.native.bridge]: [0]
+a03s:/ # cat /proc/sys/vm/swappiness
+160
+a03s:/ # sysctl -a | grep vm
+sysctl: key 'net.ipv4.route.flush': Permission denied
+sysctl: key 'net.ipv6.conf.all.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.default.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.dummy0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.epdg0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.epdg1.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.epdg2.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.epdg3.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.epdg4.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.epdg5.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.epdg6.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.epdg7.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.ip6_vti0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.ip6tnl0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.ip_vti0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.lo.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.p2p0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet1.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet10.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet11.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet12.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet13.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet14.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet15.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet16.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet17.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet18.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet19.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet2.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet20.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet3.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet4.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet5.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet6.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet7.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet8.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.rmnet9.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.sit0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.swlan0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.tunl0.stable_secret': I/O error
+sysctl: key 'net.ipv6.conf.wlan0.stable_secret': I/O error
+sysctl: key 'net.ipv6.route.flush': Permission denied
+vm.admin_reserve_kbytes = 8192
+vm.block_dump = 0
+sysctl: key 'vm.compact_memory': Permission denied
+vm.compact_unevictable_allowed = 1
+vm.dirty_background_bytes = 0
+vm.dirty_background_ratio = 5
+vm.dirty_bytes = 0
+vm.dirty_expire_centisecs = 1000
+vm.dirty_ratio = 10
+vm.dirty_writeback_centisecs = 3000
+vm.dirtytime_expire_seconds = 43200
+sysctl: key 'vm.drop_caches': Permission denied
+vm.extfrag_threshold = 500
+vm.extra_free_kbytes = 61372
+vm.laptop_mode = 0
+vm.legacy_va_layout = 0
+vm.lowmem_reserve_ratio = 256   32      0
+vm.max_map_count = 65530
+vm.min_free_kbytes = 6520
+vm.mmap_min_addr = 32768
+vm.mmap_rnd_bits = 24
+vm.mmap_rnd_compat_bits = 16
+vm.oom_dump_tasks = 0
+vm.oom_kill_allocating_task = 0
+vm.overcommit_kbytes = 0
+vm.overcommit_memory = 1
+vm.overcommit_ratio = 50
+vm.page-cluster = 0
+vm.panic_on_oom = 0
+vm.percpu_pagelist_fraction = 0
+vm.speculative_page_fault = 1
+vm.stat_interval = 10
+vm.stat_refresh =
+vm.swappiness = 160
+vm.user_reserve_kbytes = 82197
+vm.vfs_cache_pressure = 200
+vm.watermark_scale_factor = 10
